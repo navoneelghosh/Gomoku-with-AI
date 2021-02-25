@@ -24,6 +24,7 @@ The following are the scenarios considered and the weightage given to each –
 * "010100": 200,
 * "000100": 20,
 * "001000": 20
+
 Here, each 1 in the string represents a cell filled with the same checker (either X or O) in board. For example, **“11111”** represents a **fiveInARow** and effectively indicates a winning scenario. **“011110”** represents a **twoWayOpenFourInARow** and indicates the highest to be won threat level. Similarly, the others are also weighted according to their threat level.
 
 The way the AI is designed is that it will prioritize **“Attacking”** till it finds a 3000-level threat, at which point, it will switch to **“Defense”** and will block the opponent from winning.
