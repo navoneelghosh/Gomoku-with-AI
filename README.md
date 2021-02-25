@@ -3,7 +3,7 @@
 Gomoku with AI is an simple terminal based implmentation of an AI for the game of Gomoku.
 Gomoku is basically a bigger version of tic-tac-toe with modified rules.
 
-The AI uses the concept of *minimaax with alpha-beta pruning* to calculate the next move based on the player's last move.
+The AI uses the concept of *minimax with alpha-beta pruning* to calculate the next move based on the player's last move.
 
 To achieve this, the threat level of 16 scenarios were considered and scored based on their likeliness to win.
 
